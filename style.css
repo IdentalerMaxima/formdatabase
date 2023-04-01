@@ -1,0 +1,73 @@
+*
+{
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+    background-color: rgb(9, 79, 119);
+}
+
+h1
+{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+}
+
+.container
+{
+    width: 70%;
+    margin: 0 auto;
+    color: #fff;
+}
+
+input
+{
+    width: 100%;
+    padding: 15px;
+    margin: 8px;
+    border: 2px solid #ffffff;
+    font-size: 18px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.genderContainer
+{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    align-items: center;
+}
+
+.gender1
+{
+    width: 10%;
+}
+
+label
+{
+    font-weight: bold;
+    padding: 6px;
+    font-size: 20px;
+}
+
+.btn
+{
+    text-align: center;
+    margin: 20px;
+}
+
+.btn button
+{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.btn button:active
+{
+    background-color: rgb(255, 255, 255);
+    color: rgb(9, 79, 119);
+}
